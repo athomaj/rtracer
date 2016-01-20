@@ -1,0 +1,28 @@
+<SCENE size_x="800" size_y="600" anti-aliasing="4" ambient_light="1"/>
+
+<EYE>
+	<pos x="-800" y="30" z="70" />
+</EYE>
+
+<OBJECT type="cylindre" normale="0">
+	<pos x="0" y="0" z="0" />
+	<color r="0xFF" b="0xFF" />
+	<rot y="90" />
+	<radius value="30" />
+</OBJECT>
+
+<OBJECT type="sphere" normale="0">
+	<pos x="-600" y="0" z="0" />
+	<color g="0xFF" r="0xFF" />
+	<radius value="50" />
+</OBJECT>
+
+<SPOT>
+	<pos x="0" y="200" z="1000" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+</SPOT>
+
+<SPOT>
+	<pos x="0" y="-200" z="1000" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+</SPOT>

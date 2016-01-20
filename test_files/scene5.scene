@@ -1,0 +1,41 @@
+<SCENE size_x="800" size_y="600" anti-aliasing="1" />
+
+<EYE>
+	<pos x="-850" y="10" z="30" />
+</EYE>
+
+<OBJECT type="sphere" normale="0">
+	<pos x="-700" y="-30" z="60" />
+	<rot x="-20" />
+	<color r="0xAA" />
+	<radius value="20" />
+</OBJECT>
+
+<OBJECT type="plan" normale="0">
+	<pos x="0" y="0" z="0" />
+	<color g="0xFF" b="0x22" />
+</OBJECT>
+
+<SPOT>
+	<pos x="-800" y="-100" z="500" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+	<intensity value="40" />
+</SPOT>
+
+<SPOT>
+	<pos x="-650" y="75" z="500" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+	<intensity value="40" />
+</SPOT>
+
+<SPOT>
+	<pos x="-660" y="-25" z="500" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+	<intensity value="40" />
+</SPOT>
+
+<SPOT>
+	<pos x="-650" y="-90" z="10" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+	<intensity value="60" />
+</SPOT>

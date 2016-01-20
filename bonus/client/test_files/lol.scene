@@ -1,0 +1,93 @@
+<INCLUDE file="class.scene" file="spots.scene" />
+
+<SCENE size_x="800" size_y="800" anti-aliasing="2" />
+
+<EYE>
+	<pos x="-2000" y="0" z="200" />
+</EYE>
+
+<SPOT>
+	<pos x="1500" y="200" z="1000" />
+</SPOT>
+
+<SPOT>
+	<pos x="1500" y="200" z="2000" />
+</SPOT>
+
+<OBJECT type="sphere" class="green object">
+	<pos x="-150" y="282" z="100" />
+	<rot x="0" y="0" z="-90" />
+	<transparency value="0" />
+	<brightness value="25" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<color r="255">
+	<radius value="500" />
+</OBJECT>
+
+<OBJECT type="sphere" class="green object">
+	<pos x="-50" y="-250" z="0" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="25" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<radius value="400" />
+</OBJECT>
+
+<OBJECT type="cylindre" class="cylinder object">
+	<pos x="-50" y="-1000" z="0" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="25" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="sphere" class="grey object">
+	<pos x="150" y="-550" z="1000" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="25" />
+	<distortion value="0" />
+	<reflexion value="100" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="sphere" class="grey object">
+	<pos x="350" y="-50" z="1000" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="25" />
+	<distortion value="0" />
+	<reflexion value="100" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="sphere" class="grey object">
+	<pos x="150" y="350" z="1000" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="25" />
+	<distortion value="0" />
+	<reflexion value="100" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="cone" class="blue object">
+	<pos x="-20" y="800" z="0" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="25" />
+	<distortion value="0" />
+	<reflexion value="100" />
+	<radius value="20" />
+</OBJECT>
+
+<OBJECT type="plan">
+	<pos x="0" y="0" z="0" />
+	<rot x="0" y="0" z="0" />
+	<color r="0" g="255" b ="255" />
+	<reflexion value="80" />	
+</OBJECT>

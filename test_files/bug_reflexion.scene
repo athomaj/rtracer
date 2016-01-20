@@ -1,0 +1,54 @@
+<INCLUDE file="class.scene" />
+
+<SCENE size_x="800" size_y="800" anti-aliasing="4" />
+
+<SPOT>
+	<pos x="0" y="0" z="800" />
+	<color r="200" g="200" b="200" />
+	<intensity value="75" />
+</SPOT>
+
+<EYE>
+	<pos x="-2000" y="0" z="500" />
+</EYE>
+
+<OBJECT type="sphere" class="white object">
+	<pos x="530" y="0" z="600" />
+        <radius value="500" />
+	<reflexion value="100" />
+</OBJECT>
+
+<OBJECT type="sphere" class="blue object">
+	<pos x="200" y="0" z="0" />
+        <reflexion value="100" />
+        <radius value="200" />
+</OBJECT>
+
+<OBJECT type="sphere" class="red object">
+	<pos x="0" y="600" z="300" />
+        <radius value="200" />
+</OBJECT>
+
+<OBJECT type="sphere" class="green object">
+	<pos x="0" y="-600" z="300" />
+        <radius value="200" />
+	<reflexion value="80" />
+</OBJECT>
+
+<OBJECT type="plan">
+	<color r="0" g="148" b="255" />
+	<reflexion value="0" />
+</OBJECT>
+
+<OBJECT type="plan">
+	<pos x="0" y="600" z="0" />
+	<color r="0" g="148" b="255" />
+	<rot x="90" y="0" z="0"/>
+	<reflexion value="0" />
+</OBJECT>
+
+<OBJECT type="plan">
+	<color r="255" g="0" b="0" />
+	<pos x="0" y="0" z="1000" />
+	<reflexion value="0" />
+</OBJECT>

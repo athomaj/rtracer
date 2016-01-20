@@ -1,0 +1,28 @@
+<SCENE size_x="800" size_y="600" anti-aliasing="1" ambiance_light="2"/>
+
+<EYE>
+	<pos x="-225" y="0" z="50" />
+</EYE>
+
+<OBJECT type="cone" normale="0">
+	<pos x="-100" y="0" z="40" />
+	<rot x="-17" />
+	<color r="100" b="0xFF" />
+	<radius value="20" />
+	<brightness value="60" />
+</OBJECT>
+
+<OBJECT type="plan" normale="0">
+	<pos x="0" y="0" z="0" />
+	<color g="0x88" r="0xAA" />
+	<brightness value="20" />
+</OBJECT>
+<SPOT>
+	<pos x="-100" y="-350" z="100" />
+	<color r="0x00" g="0xFF" b="0x00" />
+</SPOT>
+<SPOT>
+        <pos x="-225" y="0" z="50" />
+        <color r="0xFF" g="0xFF" b="0xFF" />
+	<intensity value="100" />
+</SPOT>

@@ -1,0 +1,21 @@
+<SCENE size_x="800" size_y="600" anti-aliasing="1" ambient_light="1"/>
+
+<EYE>
+	<pos x="-800" y="0" z="30" />
+</EYE>
+
+<OBJECT type="plan" normale="0">
+	<pos x="0" y="0" z="0" />
+        <rot x="10" y="0" z="0"/>
+	<color g="0xFF" />
+</OBJECT>
+
+<SPOT>
+	<pos x="-700" y="20" z="10" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+</SPOT>
+
+<SPOT>
+	<pos x="-710" y="-60" z="-5" />
+	<color r="0xFF" g="0xFF" b="0xFF" />
+</SPOT>

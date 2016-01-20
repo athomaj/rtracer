@@ -1,0 +1,99 @@
+
+## Pour mettre une ligne en commentaire mettez un '#' au début de la ligne
+
+## include de fichier, str = nom du fichier
+## vous pouvez inclure autant de fichiers que vous voulez
+## pour ceux qui sont pas doués, je préviens, ne faites pas des fichiers qui s'entre-incluent
+
+<INCLUDE file="str" file2="str" />
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+## définir la scene
+## les valeurs par défaut sont 1 pour l'aa, 800x600 pour size_x et size_y, 0 pour l'ambient_light
+## les arguments peuvent être dans n'importe quel ordre
+## pour les pas doués, nb = valeur numérique
+
+<SCENE size_x="nb" size_y="nb" anti-aliasing="nb" ambient_light="nb" />
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+## définir l'oeil
+## valeurs par défaut pas encore définies, faut me dire quoi mettre
+
+<EYE>
+	<pos x="nb" y="nb" z="nb />
+	<rot x="nb" y="nb" z="nb" />
+</EYE>
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+## créer un objet
+## type = obligatoire,  class = optionnel, normale = obligatoire
+## normale = 0 ou 1
+## pour l'instant on peut mettre une seule classe, je sais pas si plus c'est utile
+## type = sphere/plan... class = nom de la classe
+## valeurs par défaut à 0
+## pour le dernier, j'ai mis radius mais c'est le rayon pour le sphère, l'angle pour le cône...
+
+<OBJECT type="str" class="str" normale="nb">
+	<pos x="nb" y=nb" z="nb" />
+	<rot x="nb" y=nb" z="nb" />
+	<limits_inf x="nb" y=nb" z="nb" />
+	<limits_sup x="nb" y=nb" z="nb" />
+	<color r="nb" g="nb" b="nb" />
+	<transparency value="nb" />
+	<distortion value="nb" />
+	<brightness value="nb" />
+	<reflexion value="nb" />
+	<radius value="nb" />
+</OBJECT>
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+## créer un spot
+## class = optionnel
+## pour l'instant on peut mettre une seule classe, je sais pas si plus c'est utile
+## valeur par défaut à 0 sauf la couleur où r, g, b = 255 et intensity = 100 et field = 360
+## field c'est "l'angle d'ouverture" du spot, je sais pas comment appeler ça
+
+<SPOT class="str">
+	<pos x="nb" y=nb" z="nb" />
+	<color r="nb" g="nb" b="nb" />
+	<orientation value="nb" />
+	<intensity value="nb" />
+	<field value="nb" />
+</SPOT>
+
+
+-----------------------------------------------------------------------------------------------------
+
+
+## créer une classe
+## valeur par défaut des objets et spots
+## id = obligatoire
+## pour le dernier, j'ai mis radius mais c'est le rayon pour le sphère, l'angle pour le cône...
+
+<CLASS id="str">
+	<pos x="nb" y=nb" z="nb" />
+	<rot x="nb" y=nb" z="nb" />
+	<limits_inf x="nb" y=nb" z="nb" />
+	<limits_sup x="nb" y=nb" z="nb" />
+	<color r="nb" g="nb" b="nb" />
+	<orientation value="nb" />
+	<intensity value="nb" />
+	<field value="nb" />
+	<transparency value="nb" />
+	<distortion value="nb" />
+	<brightness value="nb" />
+	<reflexion value="nb" />
+	<radius value="nb" />
+</CLASS>

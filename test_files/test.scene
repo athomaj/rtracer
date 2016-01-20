@@ -1,0 +1,64 @@
+<INCLUDE file="class.scene" file="spots.scene" />
+
+<SCENE size_x="800" size_y="800" anti-aliasing="0" ambient_light="100000" />
+
+<EYE>
+	<pos x="-2000" y="0" z="500" />
+</EYE>
+
+<OBJECT type="sphere" class="green object">
+	<pos x="-150" y="282" z="100" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="60" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="sphere" class="red object">
+	<pos x="-50" y="-350" z="0" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="60" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="cylindre" class="red object">
+	<pos x="-50" y="-1000" z="0" />
+	<rot x="30" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="60" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="sphere" class="blue object">
+	<pos x="-200" y="-200" z="500" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="60" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<radius value="200" />
+</OBJECT>
+
+<OBJECT type="cone" class="green object">
+	<pos x="-20" y="800" z="0" />
+	<rot x="0" y="0" z="0" />
+	<transparency value="0" />
+	<brightness value="60" />
+	<distortion value="0" />
+	<reflexion value="0" />
+	<radius value="10" />
+</OBJECT>
+
+<OBJECT type="plan">
+	<pos x="0" y="0" z="0" />
+	<rot x="0" y="0" z="0" />
+	<color r="0" g="255" b ="255" />
+	<reflexion value="50" />
+</OBJECT>
